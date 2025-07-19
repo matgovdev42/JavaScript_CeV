@@ -1,0 +1,108 @@
+body {
+    background: linear-gradient(to bottom, rgb(203, 203, 244), rgb(90, 90, 188));
+}
+
+h1 {
+    font-family: Impact;
+    font-size: 50px;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+div#a {
+    font: 40pt normal arial;
+    background-color: black;
+    color: aliceblue;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+div#b {
+    font: 40pt normal arial;
+    background-color: black;
+    color: aliceblue;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+div#c {
+    font: 40pt normal arial;
+    background-color: black;
+    color: aliceblue;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+div#d {
+    font: 40pt normal arial;
+    background-color: black;
+    color: aliceblue;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+div#e {
+    font: 40pt normal arial;
+    background-color: black;
+    color: aliceblue;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+div#f {
+    font: 40pt normal arial;
+    background-color: black;
+    color: aliceblue;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+div#g {
+    font: 40pt normal arial;
+    background-color: black;
+    color: aliceblue;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+div#h {
+    font: 40pt normal arial;
+    background-color: black;
+    color: aliceblue;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+div#i {
+    font: 40pt normal arial;
+    background-color: black;
+    color: aliceblue;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+
+.grade {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 5px;
+    padding: 10px;
+    justify-content: center;
+}
+
+/*Resposta do Desafio*/
+/* A - C -> Azul*/
+/* B - G -> Aramelo */
+/* H - I -> Cinza*/
+/* D - F -> Verde*/
+/* E é a bomba -> Vermelho*/

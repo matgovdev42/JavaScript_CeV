@@ -24,7 +24,33 @@ section {
     margin: 15px
 }
 
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.container div {
+    flex: 1 1 45%;
+    max-width: 220px;
+    margin: 5px;
+}
+.container select {
+    width: 100%;
+}
+
 #seltab {
+    margin: 15px;
+    width: 200px;
+}
+#seltab2 {
+    margin: 15px;
+    width: 200px;
+}
+#seltab3 {
+    margin: 15px;
+    width: 200px;
+}
+#seltab4 {
     margin: 15px;
     width: 200px;
 }
